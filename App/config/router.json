@@ -1,0 +1,17 @@
+{
+	"GET": [
+		{
+			"endpoint": "/",
+			"class": "App\\Controllers\\HomeController",
+			"method": "getHome"
+		},
+		{
+			"endpoint": "/pics",
+			"class": "App\\Controllers\\HomeController",
+			"method": "getDogPictures"
+		}
+		
+		
+	],
+	"POST": []
+}

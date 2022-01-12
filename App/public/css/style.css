@@ -1,0 +1,42 @@
+#docPics {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+main {
+	width: 750px;
+	margin: 20px auto;
+}
+
+.imageHolder {
+	width: 80px;
+	margin: 5px;
+}
+
+.imageHolder img {
+	width: 120px;
+	height: auto;
+}
+
+.clipper {
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+}
+
+label {
+	display:block;
+	margin-bottom: 10px;
+}
+
+label span {
+	display: inline-block;
+	width: 180px;
+}
+
+
+button {
+	display: block;
+	margin-top: 25px;
+	width: 100%;
+}
