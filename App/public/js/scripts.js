@@ -174,7 +174,6 @@ function process(evt) {
 		name: document.querySelector("[name=name]").value,
 		image: document.querySelector("[name=dogPic]:checked").value
 	}
-	console.log(document.querySelector("[name=dogPic]").value)
 
 	localStorage.setItem("state", JSON.stringify(state));
 
@@ -256,7 +255,7 @@ function getParagraph(text) {
 
 function getTitle()
 {
-		h1 = document.createElement("h1");
+	h1 = document.createElement("h1");
 	h1.innerText = "Your favorite dog is: ";
 	return h1;
 }
