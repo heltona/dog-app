@@ -172,8 +172,9 @@ function process(evt) {
 		font: document.querySelector("[name=font]").value,
 		breed: document.querySelector("[name=breed]").value,
 		name: document.querySelector("[name=name]").value,
-		image: document.querySelector("[name=dogPic]").value
+		image: document.querySelector("[name=dogPic]:checked").value
 	}
+	console.log(document.querySelector("[name=dogPic]").value)
 
 	localStorage.setItem("state", JSON.stringify(state));
 
@@ -261,6 +262,7 @@ function getTitle()
 }
 
 //this could be more easily done with php; but let's get some fun
+//consider it as the success message
 function displayResult() {
 
 	let result = document.querySelector("#choice-result")
